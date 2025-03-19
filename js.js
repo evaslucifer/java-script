@@ -21,8 +21,8 @@
  // 
 
  //>> const n="23";    //it cannot be edited //const
- var age=25;
- console.log(age);
+//  var age=25;
+//  console.log(age);
 
  // non primitive data type
  // arrays,objects
@@ -46,3 +46,15 @@
 
 // console.log(obj.age)
 // 12
+//strings operations
+var data="hey everyone Hope you all Are DOING Gud";
+console.log("data",data);
+console.log("lowercase",data.toLowerCase());
+console.log("uppercase",data.toUpperCase());
+
+// slice
+console.log("slice :",data.slice(2,6));//(index,index-1) index starts from zero
+//length
+console.log(data.length)
+// replace
+console.log(data.replace("hey","hi"))
