@@ -20,7 +20,7 @@
  //>> var name="hmainsh"
  // 
 
- //>> const n="23";    //it can be edited //const
+ //>> const n="23";    //it cannot be edited //const
  var age=25;
  console.log(age);
 
@@ -31,3 +31,18 @@
  // var objectName{
  // key:value
  //}
+
+
+ //var obj{
+ // mentor:[rk,nk]
+ // age[20;12]}
+ //object.mentor;
+ //>>
+//  var obj={
+    // age:12,
+    // name:"himanish",
+    // schoolcompleted:true
+// }
+
+// console.log(obj.age)
+// 12
