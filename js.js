@@ -66,9 +66,28 @@
 // }
 // operators in js
 // *,+,-,/
-let a=5;
-let b=2;
-console.log("a+b= ",a+b);
-console.log("a-b= ",a-b);
-console.log("a*b= ",a*b);
-console.log("a%b= ",a%b);
+// 
+// conditional statement
+// let age=19;
+// if(age<18){
+//     console.log("you cannot vote");
+// }
+// else{
+//     console.log("you can vote");
+// }
+// let mode="dark";
+// if(mode==="dark"){
+//     color="dark";
+// }
+// else{
+//     color="white";
+// }
+// console.log(color)
+// ood even 
+let n=15;
+if(n%2==0){
+    console.log(n ," is even");
+}
+else{
+    console.log(n, " is odd");
+}
