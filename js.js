@@ -53,41 +53,54 @@
 // console.log("uppercase",data.toUpperCase());
 
 // // slice
-// console.log("slice :",data.slice(2,6));//(index,index-1) index starts from zero
+//   console.log("slice :",data.slice(2,6));//(index,index-1) index starts from zero
 // //length
 // console.log(data.length)
 // // replace
 // console.log(data.replace("hey","hi"))
-// const product={
-//     title:"ball pen",
-//     rating:"4",
+
+// // includes
+// console.log(data.includes("you"));
+
+// //string->int
+// var var1="2345";
+
+// console.log(parseInt(var1));
+
+// // int->string
+// var var2=7896;
+// console.log(var2);
+// console.log(var2.toString());
+
+// // split operator 
+// var demo="good morning";
+// console.log(demo.split(" "));
+
+// objects
+var obj1={
+    name:"rohan",
+    age:20
+};
+// console.log(obj1.age);
+// console.log(Object.keys(obj1));
+// console.log(Object.values(obj1));
+// console.log(obj1);
+// obj1.newkey="designation";
+// obj1.value="SE";
 
 
-// }
-// operators in js
-// *,+,-,/
-// 
-// conditional statement
-// let age=19;
-// if(age<18){
-//     console.log("you cannot vote");
-// }
-// else{
-//     console.log("you can vote");
-// }
-// let mode="dark";
-// if(mode==="dark"){
-//     color="dark";
-// }
-// else{
-//     color="white";
-// }
-// console.log(color)
-// ood even 
-let n=15;
-if(n%2==0){
-    console.log(n ," is even");
-}
-else{
-    console.log(n, " is odd");
-}
+obj1.name="himanish";
+console.log(obj1);
+
+// arrays(map,find,filter,reduce)
+//promises
+//async& await
+//try & catch
+//obj with multiple concepts
+//functions(normal func/named, anonymous,arrow)
+//classes
+//conditional stmts & loops 
+
+
+
+
