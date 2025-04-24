@@ -114,10 +114,18 @@
 // 13.reject
 var myPromise=new Promise(function(resolve,reject){
    setTimeout(function(){ resolve("success")
-    // reject("error occured");
-    },3000);
-});
+    
+    },6000);
+
+// setTimeout(function(){reject("error occured")},7000);
+ });
 
 myPromise
+.then((data)=>{
+     data="hey"+data;
+    return data;
+})
 .then((data)=>{console.log(data)})
+
 .catch((err)=>{console.log(err)});
+console.log("this is at last");
